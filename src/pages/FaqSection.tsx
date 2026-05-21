@@ -103,7 +103,7 @@ export function FaqSection() {
   return (
     <div className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
       <div className="flex w-full max-w-[1280px] flex-col items-start border-x border-[rgba(255,255,255,0.02)] px-3 lg:px-[37px]">
-        <div className="flex w-full max-w-[1210px] flex-col items-center gap-[46px] border-x border-[rgba(255,255,255,0.02)] pt-24 pb-14">
+        <div className="flex w-full max-w-[1210px] flex-col items-center gap-[46px] border-x border-[rgba(255,255,255,0.02)] pt-24 pb-[56px]">
 
           {/* Header */}
           <div className="flex w-full max-w-[630px] flex-col items-center gap-3 px-6 lg:px-0">
