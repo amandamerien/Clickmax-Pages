@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@keyframes spin-border {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@theme {
+  --color-brand-50: #faf5ff;
+  --color-brand-100: #f3e8ff;
+  --color-brand-500: #a855f7;
+  --color-brand-600: #9333ea;
+  --color-brand-700: #7e22ce;
+  --color-brand-900: #3b0764;
+
+  --color-linha: rgba(255, 255, 255, 0.02);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1rem;
+  --radius-btn: 0.5rem;
+
+  --shadow-card: 0 4px 24px 0 rgb(0 0 0 / 0.08);
+}
