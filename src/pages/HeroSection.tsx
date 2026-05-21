@@ -34,10 +34,10 @@ export function HeroSection() {
 
             {/* Título: fluid mobile / 52px desktop */}
             <h1
-              className="w-full text-center leading-[1.1] tracking-[-1.114px] text-[clamp(16px,4.8vw,28px)] lg:text-[52px]"
+              className="w-full text-center leading-[1.1] tracking-[-1.114px] text-[32px] lg:text-[52px]"
               style={{
                 fontFamily: "'Aspekta', sans-serif",
-                fontWeight: 450,
+                fontWeight: 500,
                 background: "linear-gradient(180deg, #fff 24.438%, #878789 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",

@@ -127,10 +127,10 @@ export function FaqSection() {
 
             {/* Título */}
             <h2
-              className="text-center text-[clamp(28px,4vw,52px)] leading-[1.1] tracking-[-1.114px]"
+              className="text-center text-[32px] lg:text-[52px] leading-[1.1] tracking-[-1.114px]"
               style={{
                 fontFamily: "'Aspekta', sans-serif",
-                fontWeight: 450,
+                fontWeight: 500,
                 background: "linear-gradient(180deg, #fff 24.438%, #878789 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
