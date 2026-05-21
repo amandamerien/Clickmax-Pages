@@ -65,7 +65,7 @@ export function HeroSection() {
               <div
                 className="pointer-events-none absolute inset-[-100%] origin-center"
                 style={{
-                  background: "conic-gradient(from 0deg, transparent 0deg, transparent 350deg, rgba(132,221,219,0.25) 355deg, rgba(255,255,255,0.95) 358deg, rgba(132,221,219,0.15) 359.5deg, transparent 360deg)",
+                  background: "conic-gradient(from 0deg, transparent 0deg, transparent 310deg, rgba(132,221,219,0.15) 330deg, rgba(132,221,219,0.6) 342deg, rgba(255,255,255,0.9) 350deg, rgba(132,221,219,0.4) 356deg, transparent 360deg)",
                   animation: "spin-border 6s linear infinite",
                 }}
               />
