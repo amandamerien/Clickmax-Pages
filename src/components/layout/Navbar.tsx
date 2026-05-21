@@ -1,6 +1,24 @@
 import logoClickmax from "../../assets/navbar/logoclickmax.webp";
 import aceleradorBadge from "../../assets/navbar/acelerador.webp";
 
+function scrollToSection(id: string) {
+  const target = document.getElementById(id);
+  if (!target) return;
+  const start = window.scrollY;
+  const end = target.getBoundingClientRect().top + window.scrollY;
+  const duration = 1400;
+  const startTime = performance.now();
+  function easeInOutQuart(t: number) {
+    return t < 0.5 ? 8 * t * t * t * t : 1 - Math.pow(-2 * t + 2, 4) / 2;
+  }
+  function step(now: number) {
+    const progress = Math.min((now - startTime) / duration, 1);
+    window.scrollTo(0, start + (end - start) * easeInOutQuart(progress));
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
 const navLinks = [
   { label: "Perguntas frequentes", href: "#faq" },
   { label: "Resultados", href: "#resultados" },
@@ -46,13 +64,13 @@ export function Navbar() {
 
             <nav className="flex items-center gap-3">
               {navLinks.map((link) => (
-                <a
+                <button
                   key={link.href}
-                  href={link.href}
+                  onClick={() => scrollToSection(link.href.slice(1))}
                   className="px-3 py-2.5 text-[12px] font-normal leading-[1.4] text-[#b2b2b3] transition-colors hover:text-white"
                 >
                   {link.label}
-                </a>
+                </button>
               ))}
             </nav>
 
