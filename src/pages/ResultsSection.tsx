@@ -33,7 +33,7 @@ const experts = [
   },
   {
     id: "alan",
-    name: "Alan Nicholas",
+    name: "Alan Nicolas",
     revenue: "+R$ XX/mês",
     body: "Card de depoimento - texto curto sobre o resultado específico da migração + 60 dias done-with-you. Foco em fato auditável, não em adjetivo.",
     tags: ["Infoprodutor", "Nicho fitness", "+ 800K SEGUIDORES"],
