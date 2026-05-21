@@ -76,20 +76,20 @@ function ExpertCard({
   return (
     <div className="group flex flex-col gap-6 rounded-[12px] border border-[rgba(255,255,255,0.04)] bg-[rgba(255,255,255,0.01)] px-7 py-6 lg:h-[270px] lg:flex-row lg:items-center">
       {/* Photo */}
-      <div className="relative h-[160px] w-full shrink-0 overflow-hidden rounded-[12px] lg:h-[222px] lg:w-[179px]">
+      <div className="relative aspect-[3/4] w-full shrink-0 overflow-hidden rounded-[12px] lg:aspect-auto lg:h-[222px] lg:w-[179px]">
         {photo ? (
           <>
             <img
               src={photo}
               alt={name}
-              className="absolute inset-0 h-full w-full object-cover object-top transition-opacity duration-300 group-hover:opacity-0"
+              className="absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-300 group-hover:opacity-0"
             />
             {photoHover && (
               <img
                 src={photoHover}
                 alt=""
                 aria-hidden="true"
-                className="absolute inset-0 h-full w-full object-cover object-top opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                className="absolute inset-0 h-full w-full object-cover object-center opacity-0 transition-opacity duration-300 group-hover:opacity-100"
               />
             )}
           </>

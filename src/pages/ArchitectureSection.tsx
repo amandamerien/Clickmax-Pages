@@ -59,13 +59,13 @@ function ProductCard({
         <img
           src={icon}
           alt=""
-          className="absolute inset-0 h-full w-full object-contain transition-opacity duration-300 group-hover:opacity-0"
+          className="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 lg:opacity-100 lg:group-hover:opacity-0"
         />
         <img
           src={iconHover}
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          className="absolute inset-0 h-full w-full object-contain transition-opacity duration-300 lg:opacity-0 lg:group-hover:opacity-100"
         />
       </div>
 
@@ -106,7 +106,7 @@ export function ArchitectureSection() {
   return (
     <div className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
       <div className="flex w-full max-w-[1280px] flex-col items-start border-x border-[rgba(255,255,255,0.02)] px-3 lg:px-[37px]">
-        <div className="flex w-full max-w-[1210px] flex-col items-center gap-14 border-x border-[rgba(255,255,255,0.02)] pb-14 pt-24 lg:gap-[56px]">
+        <div className="flex w-full max-w-[1210px] flex-col items-center gap-14 border-x border-[rgba(255,255,255,0.02)] pb-[80px] pt-24 lg:gap-[56px] lg:pb-[56px]">
 
           {/* Header */}
           <div className="flex w-full max-w-[630px] flex-col items-center gap-3 px-6 lg:px-0">
