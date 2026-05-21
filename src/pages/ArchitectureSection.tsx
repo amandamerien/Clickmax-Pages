@@ -156,6 +156,42 @@ export function ArchitectureSection() {
             ))}
           </div>
 
+          {/* CTA */}
+          <button
+            className="relative flex h-14 items-center gap-4 overflow-hidden rounded-full border border-[#d0fa00] pl-6 pr-3 py-2"
+            style={{
+              background: "linear-gradient(90deg, #fff 0%, #fff 100%)",
+              boxShadow: "0px 1px 2px 0px rgba(0,0,0,0.16), 0px 0px 0px 1px #fff",
+            }}
+          >
+            <div
+              className="pointer-events-none absolute inset-0 rounded-full"
+              style={{
+                background: "radial-gradient(ellipse at 100% 100%, rgba(212,255,0,0.12) 0%, rgba(212,255,0,0) 100%)",
+              }}
+            />
+            <span className="relative font-['Inter'] text-[14px] font-medium leading-[1.2] whitespace-nowrap text-[#1f2123]">
+              Começar Gratuitamente
+            </span>
+            <div
+              className="relative flex size-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/[0.16]"
+              style={{
+                background: "linear-gradient(180deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 100%), #1f2123",
+                boxShadow: "0px 1px 2px 0px rgba(0,0,0,0.16), 0px 0px 0px 1px rgba(0,0,0,0.72)",
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path
+                  d="M9.30471 3.8701L3.87012 9.3047M5.48952 3.84265L9.30471 3.86955L9.33216 7.6853"
+                  stroke="white"
+                  strokeWidth="1.02928"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+
         </div>
       </div>
     </div>
