@@ -104,9 +104,9 @@ function ProductCard({
 
 export function ArchitectureSection() {
   return (
-    <div className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
+    <div id="operacao" className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
       <div className="flex w-full max-w-[1280px] flex-col items-start border-x border-[rgba(255,255,255,0.02)] px-3 lg:px-[37px]">
-        <div className="flex w-full max-w-[1210px] flex-col items-center gap-14 border-x border-[rgba(255,255,255,0.02)] pb-[80px] pt-24 lg:gap-[56px] lg:pb-[56px]">
+        <div className="flex w-full max-w-[1210px] flex-col items-center gap-14 border-x border-[rgba(255,255,255,0.02)] pb-[56px] pt-24 lg:gap-[56px]">
 
           {/* Header */}
           <div className="flex w-full max-w-[630px] flex-col items-center gap-3 px-6 lg:px-0">

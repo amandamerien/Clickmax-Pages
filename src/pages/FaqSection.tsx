@@ -101,7 +101,7 @@ function FaqCard({ n, title, body }: { n: string; title: string; body: string })
 
 export function FaqSection() {
   return (
-    <div className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
+    <div id="faq" className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
       <div className="flex w-full max-w-[1280px] flex-col items-start border-x border-[rgba(255,255,255,0.02)] px-3 lg:px-[37px]">
         <div className="flex w-full max-w-[1210px] flex-col items-center gap-[46px] border-x border-[rgba(255,255,255,0.02)] pt-24 pb-[56px]">
 

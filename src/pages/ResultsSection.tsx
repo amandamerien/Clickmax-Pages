@@ -169,7 +169,7 @@ function ExpertCard({
 
 export function ResultsSection() {
   return (
-    <div className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
+    <div id="resultados" className="flex w-full flex-col items-center justify-center px-3 lg:px-20">
       <div className="flex w-full max-w-[1280px] flex-col items-start border-x border-[rgba(255,255,255,0.02)] px-3 lg:px-[37px]">
         <div className="flex w-full max-w-[1210px] flex-col items-center gap-[46px] border-x border-[rgba(255,255,255,0.02)] pb-14 pt-24">
 
