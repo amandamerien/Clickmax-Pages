@@ -3,6 +3,8 @@ import pedroPhoto from "../assets/results/pedro.webp";
 import pedroHover from "../assets/results/pedro_hover.webp";
 import leandroPhoto from "../assets/results/leandro.webp";
 import leandroHover from "../assets/results/leandro_hover.webp";
+import alanPhoto from "../assets/results/alan.webp";
+import alanHover from "../assets/results/alan_hover.webp";
 import robsonPhoto from "../assets/results/robson.webp";
 import robsonHover from "../assets/results/robson_hover.webp";
 import gilbertoPhoto from "../assets/results/gilberto.webp";
@@ -28,6 +30,15 @@ const experts = [
     tags: ["Infoprodutor", "Nicho fitness", "+ 800K SEGUIDORES"],
     photo: leandroPhoto,
     photoHover: leandroHover,
+  },
+  {
+    id: "alan",
+    name: "Alan Nicholas",
+    revenue: "+R$ XX/mês",
+    body: "Card de depoimento - texto curto sobre o resultado específico da migração + 60 dias done-with-you. Foco em fato auditável, não em adjetivo.",
+    tags: ["Infoprodutor", "Nicho fitness", "+ 800K SEGUIDORES"],
+    photo: alanPhoto,
+    photoHover: alanHover,
   },
   {
     id: "robson",
